@@ -5,10 +5,6 @@ module.exports = {
 };
 
 function sayHello() {
-  var words = ['Hello', 'World!'];
-  var message = '';
-  _.each(words, function(word) {
-    message += word + ' ';
-  });
+  var message = "hello world"
   return message;
 }
